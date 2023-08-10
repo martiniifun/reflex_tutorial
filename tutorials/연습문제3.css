@@ -1,0 +1,15 @@
+/* 아래 두 개의 스타일을 style.py 안에 dict로 옮긴 후,
+ * 연습문제2의 rx.button과 rx.input 컴포넌트에
+ * 각 스타일을 적용해보세요.
+ */
+
+input {
+    border-width: 1px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
+}
+
+button {
+    background-color: #CEFFEE;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px;
+}
