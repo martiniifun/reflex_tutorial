@@ -27,14 +27,14 @@ def chat() -> rx.Component:
 def action_bar() -> rx.Component:
     return rx.hstack(
         rx.input(id="question",
-            placeholder="Ask a question",
-            on_blur=State.set_question,
-            style=style.input_style,
-        ),
+                 placeholder="Ask a question",
+                 on_blur=State.set_question,
+                 style=style.input_style,
+                 ),
         rx.button("Ask",
-            on_click=State.answer,
-            style=style.button_style,
-        ))
+                  on_click=State.answer,
+                  style=style.button_style,
+                  ))
 
 
 def index() -> rx.Component:
